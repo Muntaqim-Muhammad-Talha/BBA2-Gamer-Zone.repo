@@ -490,13 +490,13 @@ body {
         display: grid;
         grid-template-columns: repeat(5, 5fr);
         gap: 45px;
-        width: 1075px;
+        width: 1174px;
         margin: auto;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     }
 
     .footer-section {
-        width: 397%;
+        width: 420%;
     }
 
 
@@ -562,7 +562,7 @@ body {
     }
 
     .footer-section{
-        width: 248%;
+        width: 397%%;
     }
 
 
