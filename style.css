@@ -434,72 +434,66 @@ body {
 }
 
 
-@media screen and (max-width:425px) {
-    body {
-        width: 400%;
-        margin: auto;
-    }
 
-    /* div{
-        margin: 0;
-    } */
+
+@media screen and (max-width:425px) and (min-width:0px) {
+
     .nav-bar {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav-bar ul {
-        margin-top: 20px;
-    }
-
-    .menu-btn {
-        display: block;
+        width: 1195px;
     }
 
     .banner-section {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 20px;
         flex-direction: column-reverse;
+        width: 1717px;
+    }
+
+    .banner-container {
+        background: plum;
+        width: 1665px;
+        padding: 80px 0;
     }
 
     .bonus-sec {
-        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: right;
         flex-direction: column;
+        width: 1239px;
         text-align: center;
-        padding: 0 658px;
     }
-
-    .our-puepose {
-        text-align: center;
-        width: 520px;
-        height: 120px;
-    }
-
-    .footer-content {
-        text-align: center;
-        width: 520px;
-        height: 120px;
-    }
-
     .game-cards {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        width: 790px;
+    }
+    .con-game{
         justify-content: center;
         align-items: center;
+    }
+    .our-puepose{
+        text-align: center;
+    }
+    .online-games-con{
+        width: 1708px;
     }
 
     .play-container {
+        align-items: center;
         flex-direction: column;
-        text-align: center;
-        width: 478px;
+        width: 1650px;
     }
-    .btn-container{
-        grid-template-columns: repeat(3,3fr);
+
+    .btn-container {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(5, 5fr);
+        gap: 45px;
+        width: 1075px;
+        margin: auto;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    }    
+
+    .footer-section{
+        width: 397%;
     }
+
+
 }
