@@ -458,19 +458,23 @@ body {
         width: 1239px;
         text-align: center;
     }
+
     .game-cards {
         display: grid;
-        grid-template-columns: repeat(2,2fr);
+        grid-template-columns: repeat(2, 2fr);
         width: 790px;
     }
-    .con-game{
+
+    .con-game {
         justify-content: center;
         align-items: center;
     }
-    .our-puepose{
+
+    .our-puepose {
         text-align: center;
     }
-    .online-games-con{
+
+    .online-games-con {
         width: 1708px;
     }
 
@@ -489,11 +493,78 @@ body {
         width: 1075px;
         margin: auto;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    }    
+    }
 
-    .footer-section{
+    .footer-section {
         width: 397%;
     }
+
+
+}
+
+
+@media screen and (max-width:768px) and (min-width:424px) {
+
+    .nav-bar {
+        width: 1412px;
+    }
+
+    .banner-container {
+        width: 1908px;
+    }
+
+    .bonus-sec {
+        width: 1474px;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .our-puepose {
+        text-align: center;
+    }
+
+    .con-game {
+        text-align: center;
+    }
+
+    .game-cards {
+        display: grid;
+        width: 15%;
+        margin: auto;
+        gap: 45px;
+        margin-top: 31px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .online-games-con {
+        width: 1883px;
+        margin: auto;
+    }
+
+    .play-container {
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        width: 1900px;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 27px;
+    }
+
+
+    .btn-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-section{
+        width: 248%;
+    }
+
 
 
 }
